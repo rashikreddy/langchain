@@ -1,0 +1,9 @@
+channel,signal,queries,queries_with_truth,queries_with_decoys,queries_conditional,answer_nonzero_fraction,decoy_nonzero_fraction_query_mean,answer_value_mean,decoy_value_query_mean
+PubChem exact formula,log1p_synonyms,250,246,246,246,1.0,0.5575060919252929,4.5533099911077235,0.5899071813435167
+PubChem exact formula,has_different_parent,250,246,246,246,0.07317073170731707,0.004493598766555803,0.07317073170731707,0.004493598766555803
+Pool exact formula: reference_in_other_libraries,log1p_synonyms,250,250,241,241,1.0,0.6858529448396344,4.517546875,1.4197087268321587
+Pool exact formula: reference_in_other_libraries,has_different_parent,250,250,241,241,0.0,0.0023531116278937758,0.0,0.0023531116278937758
+Pool exact formula: structure_in_pool_no_reference,log1p_synonyms,250,250,241,241,1.0,0.6858529448396344,4.517546875,1.4197087268321587
+Pool exact formula: structure_in_pool_no_reference,has_different_parent,250,250,241,241,0.0,0.0023531116278937758,0.0,0.0023531116278937758
+Pool exact formula: structure_removed_from_pool,log1p_synonyms,250,0,241,0,,0.6858529448396343,,1.4197087268321584
+Pool exact formula: structure_removed_from_pool,has_different_parent,250,0,241,0,,0.0023531116278937758,,0.0023531116278937758

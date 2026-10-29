@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(& \"C:\\\\Users\\\\rashi\\\\anaconda3\\\\envs\\\\LangChain\\\\python.exe\" \"C:\\\\Users\\\\rashi\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-rashi-OneDrive-Desktop-AIBootcamp-LangChain\\\\96090a82-c7ea-4fd2-940a-964f81db0c32\\\\scratchpad\\\\setkernel.py\" \"01_talk_with_LLM.ipynb\")",
+      "PowerShell(& C:\\\\Users\\\\rashi\\\\anaconda3\\\\python.exe -m pip install \"langchain-community==0.4.2\" 2>&1)",
+      "Bash(python -c ' *)",
+      "Bash(python -c \"import json;c=json.load\\(open\\('04_RAG_COMPONENT.ipynb',encoding='utf-8'\\)\\)['cells'];o=c[13].get\\('outputs',[]\\);print\\([ \\(x.get\\('ename'\\),x.get\\('evalue',''\\)[:300]\\) for x in o]\\)\")"
+    ]
+  }
+}
